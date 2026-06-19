@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import biniPortrait from "@/assets/img/bini_new_portrait.jpg";
 
 export default function About() {
   return (
@@ -77,7 +78,7 @@ export default function About() {
 
               <div className="relative w-full h-full rounded-xl overflow-hidden bg-zinc-950">
                 <Image
-                  src="/bini_new_portrait.jpg"
+                  src={biniPortrait}
                   alt="Bini Amin Sheikh Portrait"
                   fill
                   sizes="(max-width: 768px) 100vw, 360px"

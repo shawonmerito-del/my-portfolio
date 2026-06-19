@@ -18,7 +18,7 @@ export default function Showreel() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-accent-blue/5 rounded-full filter blur-[150px] pointer-events-none" />
 
       <div className="max-w-6xl mx-auto px-6 md:px-12 relative z-10">
-        
+
         {/* Section Header */}
         <div className="flex flex-col items-center text-center mb-16">
           <span className="text-xs tracking-[0.3em] font-mono text-accent-blue uppercase mb-2">Featured Project</span>
